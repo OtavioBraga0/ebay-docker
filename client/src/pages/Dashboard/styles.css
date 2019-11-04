@@ -1,0 +1,99 @@
+.resultList {
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.resultList .item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 75px;
+  margin: 15px 0;
+  margin-right: 20px;
+  background-color: white;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.resultList .item .image {
+  width: 20%;
+  height: 100%;
+  border-radius: 15px;
+  background-size: cover;
+}
+
+.resultList .item .image img {
+  object-fit: cover;
+  width: 25px;
+  height: 25px;
+}
+
+.resultList .item .description {
+  width: 80%;
+  height: 90%;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.resultList .item .description .title {
+  width: 100%;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.resultList .item .description .price{
+  width: 100%;
+  font-size: 14px;
+}
+
+.dashboard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.dashboard form{
+  max-width: 450px;  
+}
+
+.dashboard .alerts{
+  max-width: 450px;
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.dashboard .alerts .alert {
+  border-radius: 0 15px 15px 15px;
+  background-color: white;
+  margin: 0 20px;
+  margin-top: 10px;
+  width: 94%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dashboard .alerts .alert .details{
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard .alerts .alert .options {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dashboard .alerts .alert .options img {
+  width: 25px;
+  height: 25px;
+}
+
+.dashboard .phrase {
+  width: 100%;
+  text-align: center;
+}
+
